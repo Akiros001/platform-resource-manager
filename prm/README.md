@@ -26,7 +26,7 @@ For WCA details, please refer to [WCA](https://github.com/intel/workload-colloca
 This section describes how to build and deploy WCA with PRM plugin in a cluster. In general, WCA/PRM
 Agent needs to be deployed in each worker node, which collects platform metrics, detect resource 
 contention and conduct resource allocation if needed. A PRM model builder needs to be deployed 
-seperately, which builds workload models and pushes to a configuration service, like zookeeper or etcd.      
+separately, which builds workload models and pushes to a configuration service, like zookeeper or etcd.      
 
 [Installation Guide](doc/install.md) introduces how to build WCA with PRM plugin, how to install 
 WCA/PRM agent and how to configure agent to work with differen type of job scheduler.

@@ -28,11 +28,11 @@ class Resource(object):
         self.level_max = level_max
 
     def is_min_level(self):
-        """ is resource controled in lowest level """
+        """ is resource controlled in lowest level """
         return self.quota_level == Resource.BUGET_LEV_MIN
 
     def is_full_level(self):
-        """ is resource controled in full level """
+        """ is resource controlled in full level """
         return self.quota_level == Resource.BUGET_LEV_FULL
 
     def set_level(self, level):

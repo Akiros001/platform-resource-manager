@@ -4,7 +4,7 @@
 all: venv check dist
 
 venv:
-	@echo Preparing virtual enviornment using pipenv.
+	@echo Preparing virtual environment using pipenv.
 	pipenv --version
 	env PIPENV_QUIET=true pipenv install --dev
 
